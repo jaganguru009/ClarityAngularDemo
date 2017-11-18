@@ -1,27 +1,17 @@
 # ClarityAngularDemo
+ Steps to run this project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
+ Please cone git brance 
+ git clone "https://github.com/jaganguru009/ClarityAngularDemo.git"
+ run npm install
+ run npm start
 
-## Development server
+ //APIS used in this project is written in common base service
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ 1) Get users
+ https://jsonplaceholder.typicode.com/users
+ 2) Get Users By Id
+ https://jsonplaceholder.typicode.com/users?userId
+ 3) Get Todos for user
+ https://jsonplaceholder.typicode.com/todos?id
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
