@@ -1,0 +1,17 @@
+ <div class="space">
+ These are do items for the user : <b> {{getuserName()}}</b>
+</div>
+ <a  class="btn btn-info" (click)="goBack();" style="margin: 2%;"> Go to users </a>
+ <br>
+ <div>
+    <div *ngFor="let todo of toDos" class="space">
+    <div class="card col-md-10">
+      <div class="card-block">
+        <h4 class="card-title">{{todo.title}}</h4>
+        <p class="card-text">Status:{{(todo.completed)?'Completed':'Pending'}} </p> 
+        
+        <a class="btn btn-success" (click)="deleteToDo(todo.id);">Delete DoTo</a>
+      </div>
+    </div>
+    </div> 
+  </div> 
